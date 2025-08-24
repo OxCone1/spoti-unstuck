@@ -1,0 +1,22 @@
+{
+  "name": "spoti-unstuck",
+  "version": "0.7.0",
+  "description": "",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "OxCone",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "prompts": "^2.4.2",
+    "puppeteer": "^24.16.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-minmax": "^1.1.2",
+    "puppeteer-extra-plugin-portal": "^3.2.1",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
